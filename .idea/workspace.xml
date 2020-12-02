@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2baa142-243d-4d53-aa6d-5558f15ec218" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AutoInfo/AutoInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutoInfo/IAutoInfo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Base/ContainerComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Base/GroupComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Base/PropertyComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimpleInfo/SimpleContainerComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SimpleInfo/SimpleGroupComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/TableInfo/TableContainerComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/TableInfo/TableGroupComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/TableInfo/TablePropertyComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Default/AutoInfoDefault.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__examples/Data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__examples/Examples.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__examples/Simple/SimpleInfoExample.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__examples/Simple/TableInfoExample.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kme6bGaNa8SprN7uRGZTME7uSF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/__examples/Simple" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/__examples/Simple" />
+      <recent name="$PROJECT_DIR$/src/Services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Base" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2baa142-243d-4d53-aa6d-5558f15ec218" name="Default Changelist" comment="" />
+      <created>1606310022699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606310022699</updated>
+      <workItem from="1606310023199" duration="8817000" />
+      <workItem from="1606322690759" duration="1012000" />
+      <workItem from="1606330975007" duration="4892000" />
+      <workItem from="1606385484952" duration="48000" />
+      <workItem from="1606385536356" duration="5825000" />
+      <workItem from="1606478500634" duration="679000" />
+      <workItem from="1606583669128" duration="4921000" />
+      <workItem from="1606648806419" duration="2187000" />
+      <workItem from="1606745796564" duration="9377000" />
+      <workItem from="1606817821163" duration="9010000" />
+      <workItem from="1606916411340" duration="97000" />
+      <workItem from="1606930648793" duration="9670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1147" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1606939183580">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1147" y="94" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1606939183580" />
+    <state width="200" height="445" key="SwitcherDM" timestamp="1606941999521">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="200" height="445" key="SwitcherDM/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1606941999521" />
+    <state x="-1295" y="78" width="670" height="676" key="search.everywhere.popup" timestamp="1606941367026">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="78" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1606941367026" />
+  </component>
+</project>
