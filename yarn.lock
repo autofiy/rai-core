@@ -3,9 +3,9 @@
 
 
 "@autofiy/autofiyable@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@autofiy/autofiyable/-/autofiyable-1.1.1.tgz#be30a1692de0a3b098193348a728681ae937c5f7"
-  integrity sha512-rjPEcjpBYGKvYstevme7zVeplRs/mklXDpDFUlrDr+9ezSctoniRl1VQ3CZBN4bKvTnQD5TL5GI/m/xELB9zOA==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@autofiy/autofiyable/-/autofiyable-1.2.0.tgz#067273cb6ce49444904fd3ad35e210d45d9dc9c4"
+  integrity sha512-gIkQF1WC0Rj9CwrWWFynj6/4sG4NYfLeAA/KROuaQVxrkgMl9sMo8A2k0HopJD5V9WzRc21tK5lMmUbYA9V4Gg==
 
 "@autofiy/property@^1.0.0":
   version "1.0.2"
