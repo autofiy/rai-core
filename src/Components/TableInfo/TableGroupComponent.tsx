@@ -2,7 +2,7 @@ import {GroupComponent} from "../Base/GroupComponent";
 import {PropertyComponent} from "../Base/PropertyComponent";
 import {TablePropertyComponent} from "./TablePropertyComponent";
 import React from "react";
-import {AUTO_INFO} from "../../Default/AutoInfoDefault";
+import {DEFAULT_AUTO_INFO} from "../../Default/AutoInfoDefault";
 
 export interface TableConfiguration {
     hideHeader?: boolean;
@@ -28,7 +28,7 @@ export class TableGroupComponent extends GroupComponent {
     }
 
     protected getTableConfigurationExtraKey(): string {
-        return AUTO_INFO.component.table.configurationKey;
+        return DEFAULT_AUTO_INFO.component.table.configurationKey;
     }
 
     protected getTableGroupExtra(): TableConfiguration {

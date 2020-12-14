@@ -1,7 +1,7 @@
-import {DefaultOrdererFactory, PropertiesConfiguration, SmartGenerator} from "@autofiy/property";
-import {IAutoInfo, ServiceConfiguration} from "../AutoInfo/IAutoInfo";
-import {ContainerComponent} from "../Components/Base/ContainerComponent";
-import {SimpleContainerComponent} from "../Components/SimpleInfo/SimpleContainerComponent";
+import { DefaultOrdererFactory, PropertiesConfiguration, SmartGenerator } from "@autofiy/property";
+import { IAutoInfo, ServiceConfiguration } from "../AutoInfo/IAutoInfo";
+import { ContainerComponent } from "../Components/Base/ContainerComponent";
+import { SimpleContainerComponent } from "../Components/SimpleInfo/SimpleContainerComponent";
 
 export interface AutoInfoDefault {
     component: {
@@ -13,7 +13,7 @@ export interface AutoInfoDefault {
 }
 
 
-export const AUTO_INFO: AutoInfoDefault = {
+export const DEFAULT_AUTO_INFO: AutoInfoDefault = {
     component: {
         table: {
             configurationKey: 'tableConfiguration'

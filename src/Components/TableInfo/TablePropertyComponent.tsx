@@ -1,5 +1,4 @@
 import {PropertyComponent} from "../Base/PropertyComponent";
-import React from "react";
 
 export class TablePropertyComponent extends PropertyComponent {
 

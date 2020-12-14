@@ -1,7 +1,7 @@
-import {AutoInfoProps, IAutoInfo, ServiceConfiguration} from "./IAutoInfo";
-import {Generator, Property} from "@autofiy/property";
-import {AutofiyableComponent, IServiceProvider, ServiceProvider} from "@autofiy/autofiyable";
-import {AUTO_INFO, DEFAULT_SERVICES} from "../Default/AutoInfoDefault";
+import { AutoInfoProps, IAutoInfo, ServiceConfiguration } from "./IAutoInfo";
+import { Generator, Property } from "@autofiy/property";
+import { AutofiyableComponent, IServiceProvider, ServiceProvider } from "@autofiy/autofiyable";
+import { DEFAULT_AUTO_INFO, DEFAULT_SERVICES } from "../Default/AutoInfoDefault";
 
 export class AutoInfo extends AutofiyableComponent<AutoInfoProps, any, ServiceConfiguration> implements IAutoInfo {
 
@@ -9,8 +9,8 @@ export class AutoInfo extends AutofiyableComponent<AutoInfoProps, any, ServiceCo
     }
 
     render() {
-        const ContainerComponent = this.props.container ?? AUTO_INFO.container;
-        return <ContainerComponent autoInfo={this}/>;
+        const ContainerComponent = this.props.container ?? DEFAULT_AUTO_INFO.container;
+        return <ContainerComponent autoInfo={this} />;
     }
 
     data(): any {
