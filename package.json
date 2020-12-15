@@ -1,13 +1,19 @@
 {
-  "name": "rai-core",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@autofiy/rai-core",
+  "version": "1.0.0",
+  "private": false,
+  "main": "./build/main.js",
+  "types": "./build/main.d.ts",
+  "repository": {
+    "url": "https://github.com/autofiy/rai-core"
+  },
   "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc --noEmit false",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "rm -rf build && npm run build && npm publish"
   },
   "eslintConfig": {
     "extends": [

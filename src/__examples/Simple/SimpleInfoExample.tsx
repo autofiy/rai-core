@@ -2,6 +2,7 @@ import { Component } from 'react';
 import { getData, getTitles } from "../Data";
 import { AutoInfo } from "../../AutoInfo/AutoInfo";
 import { SimpleContainerComponent } from "../../Components/SimpleInfo/SimpleContainerComponent";
+import React from 'react';
 
 class SimpleInfoExample extends Component {
     render() {

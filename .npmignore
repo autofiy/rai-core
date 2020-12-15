@@ -1,0 +1,13 @@
+/src
+/coverage
+/node_modules
+.gitignore
+jest.config.js
+tsconfig.json
+yarn.lock
+/.idea
+/build/__examples
+/public
+TODO.md
+.eslintcache
+/.vscode

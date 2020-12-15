@@ -2,6 +2,7 @@ import { AutoInfoProps, IAutoInfo, ServiceConfiguration } from "./IAutoInfo";
 import { Generator, Property } from "@autofiy/property";
 import { AutofiyableComponent, IServiceProvider, ServiceProvider } from "@autofiy/autofiyable";
 import { DEFAULT_AUTO_INFO, DEFAULT_SERVICES } from "../Default/AutoInfoDefault";
+import React from "react";
 
 export class AutoInfo extends AutofiyableComponent<AutoInfoProps, any, ServiceConfiguration> implements IAutoInfo {
 
