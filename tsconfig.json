@@ -14,14 +14,20 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,
-    "jsx": "react",
+    "noEmit": true,
+    "jsx": "react-jsx",
     "outDir": "build",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
   },
   "include": [
     "src"
   ],
   "exclude": [
-    "src/__tests__" , "src/__examples"
+    "src/__tests__",
+    "src/__examples"
   ]
 }
