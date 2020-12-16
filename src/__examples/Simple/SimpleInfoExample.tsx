@@ -19,6 +19,10 @@ class SimpleInfoExample extends Component {
                             facebookUrl: (property, data) => <a href={data.facebookUrl}>Facebook</a>
                         }
                     }}
+                    skipRender={{
+                        facebookUrl: () => true,
+                        name: (data) => data.name === "Ali Faris"
+                    }}
                     groups={{
                         basic: {
                             properties: ["name", "birthDate", "email", "phone", "workPhone", "status", "image"],
