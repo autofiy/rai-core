@@ -1,7 +1,7 @@
-import {Generator, OrdererFactory, PropertiesConfiguration, Property} from "@autofiy/property";
-import {Autofiyable, AutofiyableProps, ServiceConfiguration as SC} from "@autofiy/autofiyable";
-import {GroupComponent} from "../Components/Base/GroupComponent";
-import {ContainerComponent} from "../Components/Base/ContainerComponent";
+import { Generator, OrdererFactory, PropertiesConfiguration, Property } from "@autofiy/property";
+import { Autofiyable, AutofiyableProps, ServiceConfiguration as SC } from "@autofiy/autofiyable";
+import { GroupComponent } from "../Components/Base/GroupComponent";
+import { ContainerComponent } from "../Components/Base/ContainerComponent";
 
 export interface IAutoInfo extends Autofiyable<ServiceConfiguration, AutoInfoProps> {
 
@@ -24,7 +24,10 @@ export interface AutoInfoProps extends AutofiyableProps<ServiceConfiguration> {
     service?: Partial<ServiceConfiguration>;
     data: any;
     container?: typeof ContainerComponent;
-    extra? : any;
+    extra?: any;
+    skipRender?: {
+        [propName: string]: (data: any, property: Property) => boolean;
+    };
 }
 
 export type GroupPropType = {
